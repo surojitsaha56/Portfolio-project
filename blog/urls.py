@@ -4,6 +4,6 @@ from django.urls import path
 
 
 urlpatterns = [
-    path('', views.allblogs, name='home'),
+    path('', views.allblogs, name='allblogs'),
 
 ] 
