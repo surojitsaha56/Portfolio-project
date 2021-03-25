@@ -89,15 +89,13 @@
               <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-5">
                 {% for blog in blog.all %}
                 <div class="col">
-                  <div class="container">
                       <h2><u>{{blog.title}}</u></h2>
-                      <p>{{ blog.date }}</p>
+                      <p>{{ blog.date2 }}</p>
                     <img class="image-responsive" src="{{ blog.image.url }}" width="450" height="250"></img>
         
                     <div class="card-body">
                         <hr>
                       <p class="card-text">{{ blog.body }}</p>
-                    </div>
                   </div>
                 </div>
                 {% endfor %}

@@ -1,7 +1,9 @@
 
 <!doctype html>
 <html lang="en">
+  
   <head>
+    {%load staticfiles%}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -66,7 +68,7 @@
                 <a class="nav-link" href="#">Github</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Resume</a>
+                <a class="nav-link" href="{% static 'Assignment-05.pdf' %}">Resume</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Blog</a>
@@ -87,6 +89,7 @@
         <p>
           <a href="mailto:sahasurojit06@gmail.com" class="btn btn-primary my-2">Email Me</a>
         </p>
+        <img src="{% static 'default.jpg' %}" height="250" width="250"></img>
       </div>
     </div>
   </section>
