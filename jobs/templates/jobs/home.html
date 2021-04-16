@@ -3,7 +3,7 @@
 <html lang="en">
   
   <head>
-    {%load staticfiles%}
+    {%load static%}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -65,10 +65,10 @@
                 <a class="nav-link" href="https://www.linkedin.com/in/surojit-saha">LinkedIn</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Github</a>
+                <a class="nav-link" href="https://github.com/surojitsaha56">Github</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{% static 'resume.txt' %}">Resume</a>
+                <a class="nav-link" href="{% static 'Resume.pdf' %}">Resume</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'allblogs' %}">Blog</a>
@@ -89,7 +89,7 @@
         <p>
           <a href="mailto:sahasurojit06@gmail.com" class="btn btn-primary my-2">Email Me</a>
         </p>
-        <img src="{% static 'default.jpg' %}" height="250" width="250"></img>
+        <img src="{% static 'myimage.jpg' %}" height="250" width="250"></img>
       </div>
     </div>
   </section>
